@@ -326,7 +326,7 @@ def _project_sync(
             variations=flag["variations"],
             temporary=flag["temporary"],
             tags=flag["tags"],
-            include_in_snippet=flag["include_in_snippet"],
+            includeInSnippet=flag["include_in_snippet"],
         )
 
         try:
